@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: var(--track-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--thumb-color);
+  border-radius: 3px;
+}
+
+body{
+  font-family: var(--font-Popppins);
+  overflow-x: hidden;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.flex-direction-column{
+  flex-direction: column;
+}
+
+.flex-direction-row{
+  flex-direction: row;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.hide{
+  display: none;
+}

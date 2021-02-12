@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Twinkle Goyal" content="Twinkle Goyal Portfolio" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./media/favicon/memoji.png">
+
+  <!-- Styling -->
+  <link id="themeFile" rel="stylesheet" href="theme/darkVariable.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/socialMedia.css">
+  <link rel="stylesheet" href="css/wave_emoji.css">
+
+  <!-- Scripting -->
+  <script src="./utils/scrollrevealjs.js"></script>
+  <script src="./utils/fontawesome.js"></script>
+  
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <!-- Move to Top Button -->
+  <div class="hidden" data-scrollBtn="scrollToTop" id="scrollButton">
+    <img data-scrollBtn="scrollToTop" src="./media/icons/handUp.png">
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <label for="" class="logo">Twinkle Goyal</label>
+    <ul id="navOptions">
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Work Experiences</a></li>
+      <li><a href="#">Blogs</a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+    <label>
+      <i id="navIcon" class="fas fa-bars"></i>
+    </label>
+  </nav>
+
+  <!-- Container -->
+  <div class="container">
+    <!-- Header -->
+    <header id="pageHeader">
+      <div class="headerContainer flex justify-center align-center" id="greeting-text-div">
+        <div class="flex justify-center flex-direction-column" id="greeting-text-div-child">
+          <h6>Twinkle Goyal</h6>
+          <h1>I'm a Software<br>Engineer
+            <span class="wave-emoji"><img alt="👋" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/1f44b.png"></span>
+          </h1>
+          <p id="greeting-text-p">A passionate Software Engineer <img alt="🚀" draggable="false" src="https://twemoji.maxcdn.com/2/72x72/1f680.png" style="height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;"> having an experience of building Software Applications with JavaScript / Nodejs and some other useful libraries and frameworks.</p>
+          <div class="social-media-div">
+            <a href="https://github.com/Bachittarjeet" class="icon-button github" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:Bachittarjeet@gmail.com" class="icon-button google" target="_blank"><i class="fab fa-google"></i></a>
+            <a href="https://www.facebook.com/Bachittarjeet" class="icon-button facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/bachittarjeet" class="icon-button instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div id="greeting-button-div">
+            <button id="contactMe_btn">Contact Me</button>
+            <button id="seeMyResume_btn">See My Resume</button>
+          </div>
+        </div>
+      </div>
+      <div class="headerContainer flex justify-center align-center" id="greeting-image-div">
+        <img id="greeting-image" alt="Twinkle sitting on table" src="./media/moonOnTable.svg">
+      </div>
+    </header>
+
+    <!-- Section -->
+    <section class="section" id="skill_Section">
+      <div id="skillContainer">
+        <div class="flex justify-center align-center" id="skills-image-div">
+          <img src="./media/banner-three-shape2-08b71cc1e84570434fa7cdf62d3a9e53.png" alt="Twinkle sitting on table">;
+        </div>
+        <div id="skills-text-div">
+          <h1>What i Do</h1>
+          <h6>SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK</h6>
+          <div id="card-div">
+            <div class="card">
+              <img src="./media/languages_icon/icons8-javascript-75.png">
+              <span>Javascript</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-nodejs-75.png">
+              <span>NodeJS</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-mongodb-75.png">
+              <span>MongoDB</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-npm-75.png">
+              <span>NPM</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-elasticsearch-75.png">
+              <span>ElasticSearch</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-docker-75.png">
+              <span>Docker</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-github-75.png">
+              <span>Github</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-java-75.png">
+              <span>Java</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-python-75.png">
+              <span>Python</span>
+            </div>
+            <div class="card">
+              <img src="./media/languages_icon/icons8-database-75.png">
+              <span>SQL</span>
+            </div>
+          </div>
+          <ul>
+            <li>Develop highly interactive Front end / User Interfaces for your web and desktop applications</li>
+            <li>Integration of third party services such as MongoDB / Firebase / ElasticSearch</li>
+          </ul>
+        </div>
+      </div>
+      <img id="skill_vector_image" src="./media/vector-shape6-ed1e8bd8932bdbab40485493b5d6071f.png">
+    </section>
+
+    <!-- Section -->
+    <section class="section" id="workExp_Section">
+      <img id="workExp_bg_image" src="./media/vector-shape6-ed1e8bd8932bdbab40485493b5d6071f.png">
+      <div class="flex justify-center align-center" id="workExp_text_div">
+        <div id="workExp_text_div_container">
+          <h1>Work Experiences</h1>
+          <h5>Sun-Soft Technologies , Bathinda</h5>
+          <h6>Assistant Trainer & Programmer</h6>
+          <h6>July 2019 - December 2020</h6>
+          <ul>
+            <li>Frontend: HTML,CSS,JS,Bootstrap</li>
+            <li>Backend: NodeJS, MongoDB, NeDB, ElasticSearch, Firebase</li>
+            <li>Desktop: Electron, JavaFX</li>
+          </ul>
+          <h1>Projects</h1>
+          <ul>
+            <li>Veda: is the NodeJS based desktop app where collection of all the documents related to patients maintained securely.</li>
+            <li>Jetman: is a API client that makes it easy for developers to create, share, test and document APIs which is NodeJS based desktop app.</li>
+            <li>Bussiness Diary: used for maintaining firm records which is Java based desktop app. </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex justify-center align-center" id="workExp_image_div">
+        <img id="workExp_vector_img" src="./media/subscribe-img1-c1ca743b420c3deb31c64fb5ddd34677.png">
+      </div>
+    </section>
+
+    <!-- Section -->
+    <section class="section" id="contactMe_Section">
+      <img id="contactMe_bg_image" src="./media/vector-shape6-ed1e8bd8932bdbab40485493b5d6071f.png">
+      <div class="flex justify-center align-center" id="contactMe_image_div">
+        <img id="contactMe_vector_img2" src="./media/contact-c0548c3689209f9e7929cf8a215dff62.png">
+      </div>
+      <div class="flex justify-center align-center" id="contactMe_text_div">
+        <div id="contactMe_text_div_container">
+          <div id="contactMe_heading_div">
+            <h1 id="contactMe_heading_div_h1">Contact Me</h1>
+            <img src="./media/icons/icons8-ringing-phone-60.png">
+          </div>
+          <h5>DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.</h5>
+          <h1 class="contactMe_text_div_container_h1">+91-8118844518</h1>
+          <h1 class="contactMe_text_div_container_h1">art.twis@gmail.com</h1>
+          <div class="social-media-div">
+            <a href="https://github.com/Bachittarjeet" class="icon-button github" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:Bachittarjeet@gmail.com" class="icon-button google" target="_blank"><i class="fab fa-google"></i></a>
+            <a href="https://www.facebook.com/Bachittarjeet" class="icon-button facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/bachittarjeet" class="icon-button instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div id="footerContent">
+        <img id="footer_bg_img" src="./media/footer-map-80b0cb4fab6933f0cf7d485070e2fdd5.png">
+      </div>
+      <div id="footerBase">
+        <h1>Copyright @2021 ArtTwis All rights reserved HC</h1>
+        <h1>Made with ❤️ by Twinkle</h1>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripting Files -->
+  <script src="./js/nav.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/index.js"></script>
+
+</body>
+</html>

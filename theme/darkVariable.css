@@ -1,0 +1,43 @@
+@font-face{
+  font-family: MrsSheppards;
+  src: url(../font/MrsSheppards-Regular.ttf);
+}
+
+@font-face{
+  font-family: Poppins;
+  src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face{
+  font-family: Poppins_SemiBold;
+  src: url(../font/Poppins-SemiBold.ttf);
+}
+
+@font-face{
+  font-family: Arizonia;
+  src: url(../font/Arizonia-Regular.ttf);
+}
+
+@font-face{
+  font-family: BerkshireSwash;
+  src: url(../font/BerkshireSwash-Regular.ttf);
+}
+
+:root{
+  --font-MrsSheppards: MrsSheppards;
+  --font-Popppins: Poppins;
+  --font-Popppins_SemiBold: Poppins_SemiBold;
+  --font-Arizonia: Arizonia;
+  --font-BerkshireSwash: BerkshireSwash;
+
+  --track-color: #161616;
+  --thumb-color: #2d9396;
+
+  --primary: #2d9396;
+  --dark: #000;
+  --knight: #161616;
+  --navbg: #343a40;
+  --milk: #fff;
+  --ternary: #898989;
+  --lightGrey-bgc: #f2f2f2;
+}
