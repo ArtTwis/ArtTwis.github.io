@@ -536,11 +536,7 @@ workExp_text_div_container ul{
 
 #contactMe_text_div_container h5{
   margin: 0 20px 0 0;
-<<<<<<< HEAD
   color: var(--primary)!important;
-=======
-  color: var(--primary);
->>>>>>> 02ab928a24062f81214f4cbd00fbcbe6d8eddc04
   font-size: 25px;
   font-weight: 500;
 }
