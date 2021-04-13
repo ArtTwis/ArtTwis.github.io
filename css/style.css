@@ -456,6 +456,10 @@ workExp_text_div_container ul{
     font-size: 12px;
   }
 
+  #workExp_text_div_container ul{
+    width: 80%;
+  }
+
   #workExp_text_div_container ul li{
     text-align: center;
   }
