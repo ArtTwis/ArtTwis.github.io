@@ -47,7 +47,7 @@
 
 #greeting-text-div div h1{
   color: var(--milk);
-  font-size: 60px;
+  font-size: 50px;
 }
 
 #greeting-text-p{
@@ -204,13 +204,13 @@
 
 #skills-text-div h1{
   color: var(--milk);
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
 }
 
 #skills-text-div h6{
   color: var(--primary);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #card-div{
@@ -394,7 +394,7 @@
 
 #workExp_text_div_container h1{
   color: var(--milk);
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 500;
   margin: 10px 0;
 }
@@ -406,7 +406,7 @@
 }
 
 #workExp_text_div_container h6{
-  color: var(--milk);
+  color: var(--primary);
   font-size: 25px;
   font-weight: 500;
   margin: 5px 0;
@@ -444,7 +444,7 @@ workExp_text_div_container ul{
   }
 
   #workExp_text_div_container h1{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
   }
 
@@ -525,13 +525,13 @@ workExp_text_div_container ul{
 
 .contactMe_text_div_container_h1{
   color: var(--milk)!important;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
 }
 
 #contactMe_text_div_container h5{
   margin: 0 20px 0 0;
-  color: var(--ternary);
+  color: var(--primary);
   font-size: 25px;
   font-weight: 500;
 }
