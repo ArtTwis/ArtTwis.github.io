@@ -600,25 +600,16 @@ workExp_text_div_container ul{
 }
 
 footer{
-  height: 450px;
+  height: 100px;
   width: 100vw;
   background-color: var(--knight);
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 350px 100px;
+  grid-template-rows: 0px 100px;
 }
 
 #footerContent{
   position: relative;
-}
-
-#footer_bg_img{
-  position: absolute;
-  width: 600px;
-  height: 310px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 #footerBase{
@@ -652,15 +643,6 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  #footer_bg_img{
-    position: absolute;
-    width: 275px;
-    height: 150px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
   #footerBase h1{
