@@ -28,11 +28,11 @@ let defaultScrollRevealObject = {
 };
 
 // ScrollReveal().reveal('#pageHeader');
-ScrollReveal().reveal('#greeting-text-div', defaultScrollRevealObject);
+// ScrollReveal().reveal('#greeting-text-div', defaultScrollRevealObject);
 ScrollReveal().reveal('#greeting-image-div', defaultScrollRevealObject);
 ScrollReveal().reveal('#skills-image-div', defaultScrollRevealObject);
-ScrollReveal().reveal('#skills-text-div', defaultScrollRevealObject);
-ScrollReveal().reveal('#workExp_text_div', defaultScrollRevealObject);
+// ScrollReveal().reveal('#skills-text-div', defaultScrollRevealObject);
+// ScrollReveal().reveal('#workExp_text_div', defaultScrollRevealObject);
 ScrollReveal().reveal('#workExp_image_div', defaultScrollRevealObject);
 ScrollReveal().reveal('#contactMe_image_div', defaultScrollRevealObject);
-ScrollReveal().reveal('#contactMe_text_div', defaultScrollRevealObject);
+// ScrollReveal().reveal('#contactMe_text_div', defaultScrollRevealObject);
