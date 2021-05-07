@@ -4,6 +4,8 @@
   text-decoration: none;
   list-style: none;
   -webkit-font-smoothing: antialiased;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 ::-webkit-scrollbar {
