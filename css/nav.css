@@ -25,6 +25,12 @@ nav li{
   line-height: 75px;
 }
 
+nav .newBtn {
+  background-color: var(--knight);
+  border: 1px solid #f1f1f1;
+  border-radius: 7px;
+}
+
 nav a{
   color: var(--milk);
   font-size: 18px;
