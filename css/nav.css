@@ -48,6 +48,11 @@ nav a:hover{
   transition: .5s;
 }
 
+nav .newBtn:hover {
+  background-color: var(--navbg);
+  border: 1px solid var(--ternary);
+}
+
 nav #navIcon{
   color: var(--milk);
   cursor: pointer;
